@@ -5,7 +5,7 @@ import morgan from "morgan";
 import cors from "cors";
 import helmet from "helmet";
 import { Configuration, OpenAIApi } from "openai";
-import OpenAiRouter from "./components/routes/OpenAi";
+import OpenAiRouter from "./components/routes/OpenAi.js";
 // configuration
 dotenv.config();
 
